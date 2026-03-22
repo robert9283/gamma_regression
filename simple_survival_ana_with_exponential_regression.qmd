@@ -201,6 +201,9 @@ This confirms that we can stick to model2. Since AG has only two levels in model
 dispersion <- summary(model2)$dispersion
 shape      <- 1 / dispersion
 
+# Define x_range
+x_range <- seq(min(df$y), max(df$y), length.out = 500)
+
 # Predicted means from the model for each AG group (at mean WBC)
 mean_WBC <- mean(df$WBC)
 
