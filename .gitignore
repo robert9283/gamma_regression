@@ -1,0 +1,12 @@
+# Quarto build output
+*_files/
+*.html
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# macOS
+.DS_Store

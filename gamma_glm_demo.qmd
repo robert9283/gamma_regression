@@ -1,5 +1,5 @@
 ---
-title: "survival_analysis"
+title: "Gamma GLM: Model Selection and Diagnostics"
 format: html
 editor: visual
 ---
